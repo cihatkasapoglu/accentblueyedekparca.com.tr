@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://accentblueyedekparca.com.tr/sitemap.xml
