@@ -1,19 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url>
-    <loc>https://accentblueyedekparca.com.tr/</loc>
-    <lastmod>2026-09-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://accentblueyedekparca.com.tr/#urunler</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://accentblueyedekparca.com.tr/#blog</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
+    <url>
+        <loc>https://www.accentblueyedekparca.com.tr/</loc>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <!-- Bunu web sitenizin <head> kısmına bağlamayacaksınız, sadece Google Search Console'a yükleyeceksiniz -->
+    <!-- Ürün Linkleri -->
+    <url><loc>https://www.accentblueyedekparca.com.tr/urun.html?id=accent-blue-bagaj-kapagi-cikma</loc><priority>0.8</priority></url>
+    <url><loc>https://www.accentblueyedekparca.com.tr/urun.html?id=accent-blue-bagaj-kapagi</loc><priority>0.8</priority></url>
+    <url><loc>https://www.accentblueyedekparca.com.tr/urun.html?id=accent-blue-cikma-bagaj-kapagi-beyaz</loc><priority>0.8</priority></url>
+    <url><loc>https://www.accentblueyedekparca.com.tr/urun.html?id=accent-blue-cikma-el-freni-tabancasi</loc><priority>0.8</priority></url>
+    <url><loc>https://www.accentblueyedekparca.com.tr/urun.html?id=accent-blue-cikma-parca</loc><priority>0.8</priority></url>
+    <url><loc>https://www.accentblueyedekparca.com.tr/urun.html?id=accent-blue-cikma-parcalari</loc><priority>0.8</priority></url>
+    <url><loc>https://www.accentblueyedekparca.com.tr/urun.html?id=accent-blue-debriyaj-pedali</loc><priority>0.8</priority></url>
+    <url><loc>https://www.accentblueyedekparca.com.tr/urun.html?id=accent-blue-depo-kapagi-dis</loc><priority>0.8</priority></url>
+    <url><loc>https://www.accentblueyedekparca.com.tr/urun.html?id=accent-blue-el-freni-tabancasi</loc><priority>0.8</priority></url>
+    <url><loc>https://www.accentblueyedekparca.com.tr/urun.html?id=accent-blue-elcik</loc><priority>0.8</priority></url>
+    <url><loc>https://www.accentblueyedekparca.com.tr/urun.html?id=accent-blue-fren-pedali-cikma-parca</loc><priority>0.8</priority></url>
+    <url><loc>https://www.accentblueyedekparca.com.tr/urun.html?id=accent-blue-fren-pedali-cikma</loc><priority>0.8</priority></url>
+    <url><loc>https://www.accentblueyedekparca.com.tr/urun.html?id=accent-blue-intercooler-cikma</loc><priority>0.8</priority></url>
+    <url><loc>https://www.accentblueyedekparca.com.tr/urun.html?id=accent-blue-kalorifer-motoru-cihat-hyundai</loc><priority>0.8</priority></url>
+    <url><loc>https://www.accentblueyedekparca.com.tr/urun.html?id=accent-blue-kalorifer-motoru</loc><priority>0.8</priority></url>
+    <url><loc>https://www.accentblueyedekparca.com.tr/urun.html?id=accent-blue-kaput-sifir</loc><priority>0.8</priority></url>
+    <url><loc>https://www.accentblueyedekparca.com.tr/urun.html?id=accent-blue-on-panel-sifir</loc><priority>0.8</priority></url>
+    <url><loc>https://www.accentblueyedekparca.com.tr/urun.html?id=accent-blue-on-tampon-dega</loc><priority>0.8</priority></url>
+    <url><loc>https://www.accentblueyedekparca.com.tr/urun.html?id=accent-blue-on-tampon-sifir</loc><priority>0.8</priority></url>
+    <url><loc>https://www.accentblueyedekparca.com.tr/urun.html?id=accent-blue-sag-far-sifir-cihat-hyundai</loc><priority>0.8</priority></url>
+    <url><loc>https://www.accentblueyedekparca.com.tr/urun.html?id=accent-blue-sa§-far</loc><priority>0.8</priority></url>
+    <url><loc>https://www.accentblueyedekparca.com.tr/urun.html?id=accent-blue-sol-far-sifir-cihat-hyundai</loc><priority>0.8</priority></url>
+    <url><loc>https://www.accentblueyedekparca.com.tr/urun.html?id=accent-blue-sol-far</loc><priority>0.8</priority></url>
+    <url><loc>https://www.accentblueyedekparca.com.tr/urun.html?id=accent-blue-sol-on-kapi-sifir</loc><priority>0.8</priority></url>
+    <url><loc>https://www.accentblueyedekparca.com.tr/urun.html?id=accent-blue-stop-lambasi-sifir</loc><priority>0.8</priority></url>
+    <url><loc>https://www.accentblueyedekparca.com.tr/urun.html?id=accent-blue-yedek-parca</loc><priority>0.8</priority></url>
 </urlset>
