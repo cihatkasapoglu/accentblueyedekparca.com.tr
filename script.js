@@ -131,17 +131,30 @@ const urunler = [
 const urunListesi = document.getElementById('urun-listesi');
 
 urunler.forEach(dosya => {
-    let baslik = dosya.toLowerCase()
+    // Ürün başlığını SEO dostu hale getir
+    let safBaslik = dosya.toLowerCase()
         .replace(/\.jpeg|\.jpg|\.png/g, '')
         .replace(/-/g, ' ')
+        .replace(/cihat hyundai/g, '') // marka kirliliğini siler
         .replace(/orijinal/g, '')
         .replace(/ruhsat/g, '')
         .trim();
 
+    // Başlığın ilk harflerini büyüt
+    let baslik = safBaslik.replace(/\b\w/g, l => l.toUpperCase());
+
+    // Otomatik SEO Açıklaması Üretimi
+    let seoAciklama = `Ankara Yenimahalle stoklarımızda bulunan ${baslik} parçası. Uygun fiyat, orijinal/çıkma seçenekleri ve Türkiye'nin her yerine kargo imkanı ile hemen sipariş verebilirsiniz.`;
+
     const div = document.createElement('div');
     div.className = 'urun-karti';
 
-    div.innerHTML = '<img src="images/' + dosya + '" alt="' + baslik + '" loading="lazy"><h3>' + baslik + '</h3>';
+    div.innerHTML = `
+        <img src="images/${dosya}" alt="Hyundai Accent Blue ${baslik} Ankara" loading="lazy">
+        <h3>${baslik}</h3>
+        <p class="seo-text">${seoAciklama}</p>
+        <a href="https://wa.me/905537383806?text=Merhaba,%20${baslik}%20parçası%20hakkında%20bilgi%20almak%20istiyorum." target="_blank" class="urun-iletisim">Fiyat Bilgisi Al</a>
+    `;
 
     urunListesi.appendChild(div);
 });
